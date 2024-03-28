@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       fontSize: {
-        "2xl": "28px", // 28px
-        "5xl": "50px", // 50px
+        "3xl": "28px", // 28px
+        "4xl": "50px", // 50px
         "6xl": "64px", // 64px
       },
       fontFamily: {
