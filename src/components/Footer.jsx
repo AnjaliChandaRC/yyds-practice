@@ -5,16 +5,16 @@ const Footer = () => {
   return (
     <>
       <div className="bg-darkCharcoal py-9">
-        <div className="container max-w-[1140px] mx-auto md:flex justify-between items-center px-5 xl:px-0">
-          <div className="md:flex">
+        <div className="container max-w-[1140px] mx-auto md:flex justify-between items-center px-3 sm:px-5 xl:px-0">
+          <div className="md:flex items-end">
             <a href="/">
               <img
                 src={footerLogo}
                 alt="footer-logo"
-                className="mx-auto md:mx-0"
+                className="mx-auto md:mx-0 max-w-[80px] lg:max-w-[103px]"
               />
             </a>
-            <p className="text-sm font-normal font-poppins text-lightWhite text-center md:text-start max-w-[300px] mx-auto md:mx-0 md:max-w-[256px] pt-3 md:pt-14 opacity-80">
+            <p className="text-sm font-normal font-poppins text-lightWhite text-center md:text-start max-w-[300px] mx-auto md:mx-0 md:max-w-[256px] pt-3 md:pt-0 opacity-80">
               $YYDS is a memecoin with no intrinsic value or expectation of
               financial return.
             </p>

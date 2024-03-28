@@ -10,14 +10,14 @@ const OurBuilders = () => {
         <img
           src={builderCartoon}
           alt="builder-cartoon"
-          className="absolute start-[6%] top-[4%]"
+          className="absolute start-[-3%] xl:start-[3%] top-[3%] blend_img hidden lg:block"
         />
         <img
           src={movementLineIcon}
           alt="movement-line-icon"
-          className="absolute end-[9%] top-[7%]"
+          className="absolute end-0 xl:end-[6%] top-[7%] hidden lg:block"
         />
-        <div className="container max-w-[1140px] mx-auto px-5 xl:px-0">
+        <div className="container max-w-[1140px] mx-auto px-3 sm:px-5 xl:px-0">
           <h2 className="text-lg md:text-xl lg:text-2xl font-indieFlower font-normal text-saffron text-center text_stroke_orange">
             Our Buidlers
           </h2>
@@ -32,7 +32,7 @@ const OurBuilders = () => {
               Movement
             </span>
           </h3>
-          <img src={builderGroupImage} alt="builder-img" className="pt-7" />
+          <img src={builderGroupImage} alt="builder-img" className="pt-8" />
         </div>
       </div>
     </>

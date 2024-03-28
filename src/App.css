@@ -9,3 +9,7 @@
     -webkit-text-stroke-color: #F2BD64 !important;
     -webkit-text-stroke-width: 0.5px !important;
 }
+
+.blend_img {
+    mix-blend-mode: darken !important;
+}
