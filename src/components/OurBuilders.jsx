@@ -6,7 +6,7 @@ import movementLineIcon from "../assets/images/svg/movement-line-icon.svg";
 const OurBuilders = () => {
   return (
     <>
-      <div className="bg-papayaWhip py-6 md:pt-16 md:pb-7 relative">
+      <div className="bg-papayaWhip py-12 md:pt-16 md:pb-7 relative">
         <img
           src={builderCartoon}
           alt="builder-cartoon"

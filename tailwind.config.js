@@ -22,6 +22,7 @@ module.exports = {
         pastedOrange: "#F4B03B",
         darkCharcoal: "#2E2C28",
         lightWhite: "#FAFAFA",
+        darkOrange: "#F4B03B57",
       },
     },
   },
