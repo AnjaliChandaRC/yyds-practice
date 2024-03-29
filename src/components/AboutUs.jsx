@@ -6,7 +6,7 @@ import aboutUsPanda from "../assets/images/png/about-us-panda.png";
 const AboutUs = () => {
   return (
     <>
-      <div className="py-12 md:py-24 relative about_bg">
+      <div className="py-12 md:py-24 relative common_bg_img">
         <img
           src={aboutUsCartoon}
           alt="about-us-cartoon"

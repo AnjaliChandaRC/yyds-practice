@@ -14,7 +14,7 @@
     mix-blend-mode: darken !important;
 }
 
-.about_bg {
+.common_bg_img {
     background-image: url("./assets/images/png/about-us-bg.png");
 }
 
