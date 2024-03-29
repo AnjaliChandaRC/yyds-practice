@@ -7,9 +7,18 @@ const AboutUs = () => {
   return (
     <>
       <div className="py-12 md:py-24 relative about_bg">
-        <img src={aboutUsCartoon} alt="about-us-cartoon" className="absolute" />
+        <img
+          src={aboutUsCartoon}
+          alt="about-us-cartoon"
+          className="absolute blend_img max-w-[200px] xl:max-w-[400px] hidden md:block"
+        />
+        <img
+          src={aboutUsPanda}
+          alt="about-us-panda"
+          className="absolute blend_img end-[2%] bottom-[10%] max-w-[200px] xl:max-w-[310px] hidden md:block"
+        />
         <div className="container max-w-[1140px] mx-auto px-3 sm:px-5 xl:px-0">
-          <div className="w-[60%] mx-auto text-center">
+          <div className="md:w-[60%] mx-auto text-center">
             <h2 className="text-lg md:text-xl lg:text-2xl font-indieFlower font-normal text-saffron text_stroke_orange">
               About Us
             </h2>
@@ -39,7 +48,7 @@ const AboutUs = () => {
               merged with the time-honored 财神 to stand eternal, continuously
               cherished by meme aficionados.
             </p>
-            <div className="relative pt-10">
+            <div className="relative pt-6 md:pt-10">
               <button className="common_btn text-xl font-normal font-indieFlower">
                 Learn More
               </button>
