@@ -5,6 +5,11 @@
     -webkit-text-stroke-width: 2px !important;
 }
 
+.text_stroke_black_2 {
+    -webkit-text-stroke-color: black !important;
+    -webkit-text-stroke-width: 0.5px !important;
+}
+
 .text_stroke_orange {
     -webkit-text-stroke-color: #F2BD64 !important;
     -webkit-text-stroke-width: 0.5px !important;
@@ -12,10 +17,6 @@
 
 .blend_img {
     mix-blend-mode: darken !important;
-}
-
-.common_bg_img {
-    background-image: url("./assets/images/png/about-us-bg.png");
 }
 
 .common_btn {

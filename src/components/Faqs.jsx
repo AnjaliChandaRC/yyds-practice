@@ -11,25 +11,25 @@ const Faqs = () => {
   };
   return (
     <>
-      <div className="common_bg_img relative pt-[138px] pb-48">
+      <div className="relative pt-[138px] pb-48 h-[868px]">
         <img
           src={faqCartoon}
           alt="faq-cartoon"
-          className="absolute blend_img max-w-[200px] xl:max-w-[400px] hidden md:block top-[5%]"
+          className="absolute blend_img max-w-[200px] xl:max-w-[400px] hidden md:block top-[4%]"
         />
         <img
           src={faqMonkey}
           alt="faq-monkey-image"
-          className="absolute blend_img end-0 bottom-[10%] max-w-[200px] xl:max-w-[310px] hidden md:block"
+          className="absolute blend_img end-0 bottom-[5%] max-w-[200px] xl:max-w-[310px] hidden md:block"
         />
         <div className="container max-w-[1140px] mx-auto px-3 sm:px-5 xl:px-0">
           <h3 className="text-center text-2xl md:text-[35px] lg:text-5xl font-indieFlower font-normal text-lightBlack text_stroke text_stroke_black">
-            How to Buy
+            How to Buy{" "}
             <span className="relative inline-block">
               <img
                 src={movementTextLine}
                 alt="movement-line-img"
-                className="absolute start-0 bottom-0 w-full"
+                className="absolute start-0 bottom-[-12px] w-full"
               />
               $YYDS
             </span>
@@ -38,17 +38,19 @@ const Faqs = () => {
             {faqsList.map((faq, index) => (
               <div
                 key={index}
-                className={`overflow-hidden transition-all duration-300 ${
+                className={`overflow-hidden transition-all duration-300 rounded-[10px] ${
                   activeIndex === index
-                    ? " border border-red-500 shadow_border"
-                    : " border border-black"
+                    ? " border-[1.7px] border-[#31ABDF] shadow_border"
+                    : " border-[1.7px] border-black"
                 } mt-3`}
               >
                 <button
                   onClick={() => toggleAccordion(index)}
-                  className="w-full text-left p-4 focus:outline-none hover:bg-gray-100 transition duration-300 ease-in-out"
+                  className="w-full text-left p-4 focus:outline-none transition duration-300 ease-in-out"
                 >
-                  <span className="text-lg font-medium">{faq.question}</span>
+                  <span className="text-3xl font-normal font-indieFlower text_stroke_black_2">
+                    {faq.question}
+                  </span>
                   <span className="float-right">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -73,7 +75,7 @@ const Faqs = () => {
                     activeIndex === index ? "max-h-[130px]" : "max-h-0"
                   }`}
                 >
-                  <div className="text-gray-700 p-4">
+                  <div className="text-black ps-10 pe-4 pb-4 text-2xl font-indieFlower">
                     <p>{faq.answer}</p>
                   </div>
                 </div>

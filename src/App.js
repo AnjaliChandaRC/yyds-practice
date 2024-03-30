@@ -10,7 +10,7 @@ import Tokenomics from "./components/Tokenomics";
 
 function App() {
   return (
-    <>
+    <div className="bg-[url(/src/assets/images/png/about-us-bg.png)] bg-[length:100%_100%] bg-repeat-y">
       <Header />
       <Hero />
       <AboutUs />
@@ -19,7 +19,7 @@ function App() {
       <OurBuilders />
       <Faqs />
       <Footer />
-    </>
+    </div>
   );
 }
 

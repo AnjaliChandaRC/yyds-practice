@@ -49,7 +49,7 @@ const Tokenomics = () => {
                 </span>
               </h3>
               <div className="sm:flex justify-center md:block gap-7 pt-7">
-                <div className="flex justify-center sm:justify-start gap-4 md:pt-7">
+                <div className="flex justify-center sm:justify-start gap-4">
                   <div className="w-[41px] h-[30px] bg-pastedOrange rounded"></div>
                   <p className="text-2xl font-indieFlower font-normal text-lightBlack">
                     10% CEX Liquidity
